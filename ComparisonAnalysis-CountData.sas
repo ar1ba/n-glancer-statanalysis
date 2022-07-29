@@ -1,5 +1,5 @@
 
-#INPUT DATA
+*INPUT DATA;
 data ciliarypocket; 	
     infile datalines delimiter=','; 
 	input layer $ type $ cp regular;
@@ -46,7 +46,7 @@ run;
 
 
 
-#INPUT DATA
+*INPUT DATA;
 data basalbody; 	
     infile datalines delimiter=','; 
 	input type $ normal irregular;	
@@ -90,7 +90,7 @@ run;
 
 
 
-#INPUT DATA
+*INPUT DATA;
 data ciliashape; 	
     infile datalines delimiter=','; 
 	input Type $	Smooth	Beaded	Combination;	
@@ -124,8 +124,7 @@ run;
 *one way anova split bw neuron type;
 *first, Interneurons;
 
-
-#INPUT DATA
+*INPUT DATA;
 data ciliashapeIN; 	
     infile datalines delimiter=','; 
 	input Type $	Smooth	Beaded	Combination;	
@@ -143,7 +142,7 @@ run;
 
 *next, pyramidal;
 
-#INPUT DATA
+*INPUT DATA;
 data ciliashapePN; 	
     infile datalines delimiter=','; 
 	input Type $	Smooth	Beaded	Combination;	
