@@ -1,3 +1,5 @@
+*create separate datasets for each correlation analysis by pasting delimited data from CSV file;
+
 data spIN;
  infile datalines delimiter=",";
    input sp cilialength;
